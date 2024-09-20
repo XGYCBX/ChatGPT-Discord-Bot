@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.15">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1188" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3867" dy="3426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -32,7 +32,7 @@
         <mxCell id="ZbWktOex601hntvroN2w-5" value="是否小于临界值" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZbWktOex601hntvroN2w-10" value="收到买家费用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZbWktOex601hntvroN2w-10" value="收到买家押金" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZbWktOex601hntvroN2w-11" value="电动车零件剩余情况" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;textDirection=ltr;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -47,7 +47,7 @@
         <mxCell id="j7-N3N7JFlxdxde-ol02-0" value="订单生成程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HMagm1CiKMTZ8fnXeKna-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-2" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="559.58" as="sourcePoint" />
             <mxPoint x="580" y="559.58" as="targetPoint" />
@@ -56,7 +56,7 @@
         <mxCell id="j7-N3N7JFlxdxde-ol02-2" value="生成订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HMagm1CiKMTZ8fnXeKna-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-3" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="559.58" as="sourcePoint" />
             <mxPoint x="820" y="559.58" as="targetPoint" />
@@ -68,25 +68,28 @@
         <mxCell id="HMagm1CiKMTZ8fnXeKna-4" value="厂商发货" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="827" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j7-N3N7JFlxdxde-ol02-4" value="开发票" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="j7-N3N7JFlxdxde-ol02-4" value="支付费用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HMagm1CiKMTZ8fnXeKna-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-5" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="887" y="460" as="sourcePoint" />
             <mxPoint x="886.5799999999999" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j7-N3N7JFlxdxde-ol02-5" value="核实购买数量" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="j7-N3N7JFlxdxde-ol02-5" value="用户下单骑行时间" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HMagm1CiKMTZ8fnXeKna-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-6" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="419.58" as="sourcePoint" />
             <mxPoint x="560" y="419.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j7-N3N7JFlxdxde-ol02-7" value="向买家发货" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j7-N3N7JFlxdxde-ol02-7" target="HMagm1CiKMTZ8fnXeKna-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7-N3N7JFlxdxde-ol02-7" value="用户自行取车" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HMagm1CiKMTZ8fnXeKna-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -98,7 +101,7 @@
         <mxCell id="j7-N3N7JFlxdxde-ol02-9" value="生成订货报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="1590" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HMagm1CiKMTZ8fnXeKna-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-9" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="880" y="380" as="sourcePoint" />
             <mxPoint x="470" y="160" as="targetPoint" />
@@ -107,8 +110,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j7-N3N7JFlxdxde-ol02-10" value="各手机数量表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="1190" width="150" height="60" as="geometry" />
+        <mxCell id="j7-N3N7JFlxdxde-ol02-10" value="检测资金有没有到账" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="1320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7-N3N7JFlxdxde-ol02-12" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -202,12 +205,90 @@
         </mxCell>
         <mxCell id="j7-N3N7JFlxdxde-ol02-23" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="1219.5" as="sourcePoint" />
-            <mxPoint x="600" y="1219.5" as="targetPoint" />
+            <mxPoint x="480" y="1349.5" as="sourcePoint" />
+            <mxPoint x="600" y="1349.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="460" y="1219.5" />
-              <mxPoint x="480" y="1219.5" />
+              <mxPoint x="460" y="1349.5" />
+              <mxPoint x="480" y="1349.5" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-11" value="用户登录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-14" value="用户注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-15" value="存在账号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-16" value="密码是否正确" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-17" value="密码不正确，请重新输入密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-11" target="HMagm1CiKMTZ8fnXeKna-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="30" as="sourcePoint" />
+            <mxPoint x="90" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-21" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1390" as="sourcePoint" />
+            <mxPoint x="460" y="1490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-22" target="HMagm1CiKMTZ8fnXeKna-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-22" target="HMagm1CiKMTZ8fnXeKna-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-22" value="用户是否在规定时间内还车" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-24" value="订单结束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-26" value="支付多余费用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-16" target="ZbWktOex601hntvroN2w-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="80" as="sourcePoint" />
+            <mxPoint x="340" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-11" target="HMagm1CiKMTZ8fnXeKna-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="70" as="sourcePoint" />
+            <mxPoint x="-10" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-15" target="HMagm1CiKMTZ8fnXeKna-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-65" y="260" as="sourcePoint" />
+            <mxPoint x="-15" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-14" target="ZbWktOex601hntvroN2w-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="210" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMagm1CiKMTZ8fnXeKna-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HMagm1CiKMTZ8fnXeKna-16" target="HMagm1CiKMTZ8fnXeKna-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="110" as="sourcePoint" />
+            <mxPoint x="180" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
