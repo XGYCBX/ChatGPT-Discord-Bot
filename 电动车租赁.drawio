@@ -35,6 +35,12 @@
         <mxCell id="ZbWktOex601hntvroN2w-10" value="收到买家费用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="640" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZbWktOex601hntvroN2w-11" value="电动车零件剩余情况" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;textDirection=ltr;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="215" width="60" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbWktOex601hntvroN2w-12" value="电动车租赁订单作废" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
